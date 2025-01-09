@@ -7,6 +7,6 @@
 <body>
   <h1>POSTS</h1>
   {% for post in posts  %}
-    <li><a href="{% url 'detailed_post' post.id %}">{{post.title}}</a> - {{post.created_at}}</li>
+    <li><a href="{% url 'blog:detailed_post' post.id %}">{{post.title}}</a> - {{post.created_at}}</li>
   {% endfor %}
 </body>
