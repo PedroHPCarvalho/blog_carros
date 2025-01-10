@@ -106,21 +106,27 @@ Comando	Descrição
 🧱 1. Estrutura de Projetos Django
 - Criar projetos e apps no Django.
 - Entender a importância dos arquivos models.py, views.py, urls.py e forms.py.
+  
 📄 2. Templates HTML e CSS
 - Trabalhar com templates HTML para gerar páginas dinâmicas.
 - Configurar e servir arquivos estáticos (CSS) no Django.
+  
 🗄️ 3. Banco de Dados e Migrações
 - Criar models para definir tabelas no banco de dados.
 - Utilizar migrations para criar e atualizar tabelas.
+  
 📤 4. Upload de Imagens
 - Configurar o campo ImageField para permitir o upload de imagens.
 - Utilizar a biblioteca Pillow para manipulação de imagens.
+  
 🔄 5. Formulários no Django
 - Criar forms com forms.Form e forms.ModelForm.
 - Processar dados de formulários e validar entradas do usuário.
+  
 🔧 6. URLs Dinâmicas e Redirecionamentos
 - Utilizar parâmetros dinâmicos nas URLs (como IDs de posts).
 - Implementar redirecionamentos após submissões de formulários.
+  
 📦 7. Trabalhar com Ambiente Virtual e Dependências
 - Criar e ativar um ambiente virtual para o projeto.
 - Gerar e utilizar o arquivo requirements.txt para instalar dependências.
