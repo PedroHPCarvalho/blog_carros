@@ -46,17 +46,23 @@ cd blog_carros
 
 ```
 # No Windows
+# PRIMEIRO
 python -m venv env
+# SEGUNDO
 env\Scripts\activate
 
 # No Linux/macOS
+# PRIMEIRO
 python3 -m venv env
+# SEGUNDO
 source env/bin/activate
 ```
 
 3️⃣ Instale as dependências:
 
 ```
+# CASO NÃO ESTEJA NO /blog_carros
+cd blog_carros
 pip install -r requirements.txt
 ```
 
