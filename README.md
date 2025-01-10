@@ -38,8 +38,8 @@ Este é um projeto de um pequeno sistema de blog, neste caso foi utilizado para 
 1️⃣ **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/PedroHPCarvalho/blog_carros.git
+cd blog_carros
 ```
 
 2️⃣ Crie um ambiente virtual e ative-o:
