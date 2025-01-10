@@ -15,4 +15,4 @@ class PostForm(forms.ModelForm):
         # aqui definimos o modelo base para o formulario e quais campos do 
         # modelo usaremos 
         model = Post
-        fields = ['title', 'body']
+        fields = ['image', 'subtitle', 'title', 'body']

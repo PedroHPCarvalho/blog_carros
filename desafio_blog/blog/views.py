@@ -21,7 +21,7 @@ def detailed_post(request, post_id):
 
 def new_post(request):
     if request.method == "POST":
-        form = PostForm(request.POST)
+        form = PostForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
             return redirect('/blog/')
@@ -33,7 +33,7 @@ def new_post(request):
 def edit_post(request, post_id):
     post = get_object_or_404(Post, id=post_id)
     if request.method == "POST":
-        form = PostForm(request.POST, instance=post)
+        form = PostForm(request.POST, request.FILES, instance=post)
         if form.is_valid():
             form.save()
             return redirect("/blog/")

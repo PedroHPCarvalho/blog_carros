@@ -17,9 +17,18 @@ body {
   flex-direction: column; /* Mantém o conteúdo centralizado */  
 }
 
-a{
-  text-decoration: none
+li{
+  list-style: none;
+  padding: 0;
 }
+
+a{
+  text-decoration: none;
+}
+
+.col {  
+  max-width: 100%; /* Garante que as colunas não excedam a largura do seu contêiner */  
+} 
 
 
 #header {  
@@ -34,6 +43,37 @@ a{
   align-items: center; /* Centraliza verticalmente */  
   justify-content: center; /* Centraliza horizontalmente */  
 }  
+
+#header h1 {
+  font-size: 4rem; /* Define o tamanho da fonte do título para 4 rem (relativo ao tamanho base da fonte) */
+  font-family: 'Orbitron', sans-serif; /* Aplica a fonte Orbitron, com fallback para sans-serif */
+  text-transform: uppercase; /* Converte o texto para letras maiúsculas */
+  color: #f82e5d; /* Define a cor do texto como vermelho intenso (#ff003c) */
+  /* ====== Efeito ao passar o mouse sobre o título (h1) ====== */
+  text-shadow: 0 0 15px rgba(247, 131, 158, 0.8), 0 0 30px rgba(255, 0, 60, 0.337); /* Adiciona um efeito de sombra luminosa ao texto, criando um efeito neon */
+  padding: 10px;
+  margin-bottom: 1rem; /* Adiciona um espaçamento abaixo do título */
+  font-family: "Jersey 15", serif;
+  
+}
+
+#header h1:hover {
+  color: #ff3366; /* Altera a cor do texto para um tom mais claro de vermelho ao passar o mouse */
+  text-shadow: 0 0 25px rgba(255, 51, 102, 0.9), 0 0 45px rgba(255, 51, 102, 0.7); /* Aumenta o efeito de neon ao passar o mouse, deixando o texto mais brilhante */
+}
+
+/* ====== Estilização do subtítulo (p) ====== */
+#header p {
+  font-size: 1.5rem; /* Define o tamanho da fonte do subtítulo para 1.5 rem */
+  font-family: 'Roboto', sans-serif; /* Aplica a fonte Roboto, com fallback para sans-serif */
+  color: #f4f4f4; /* Define a cor do subtítulo como branco claro (#f1f1f1) */
+  text-shadow: 0 0 10px rgba(40, 40, 40, 0.8); /* Adiciona uma sombra leve ao subtítulo, criando um efeito de brilho */
+  margin-top: -1rem; /* Ajusta o espaçamento acima do subtítulo para aproximá-lo do título */
+  font-family: "Jersey 15", serif;
+
+}
+
+
 
 #navbar {  
   background-color: rgba(0,0,0,1); /* Coloque aqui a cor desejada (ex: cinza escuro) */ 
@@ -77,6 +117,60 @@ a{
   height: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
 }
+
+#post_home h2 {  
+  font-size: 1.8rem; /* Tamanho do título */  
+  margin-bottom: 0.5rem; /* Espaçamento abaixo do título */  
+  color: rgb(255, 255, 255); /* Cor do título */  
+  line-height: 1.2; /* Altura da linha para melhor visualização */  
+  white-space: normal; /* Permite que o texto quebre automaticamente */  
+  overflow-wrap: break-word; /* Quebra palavras longas se necessário */ 
+  max-width: 100%;
+}  
+#title_subtittle_post>h1>a{
+  text-decoration: none;
+  color: #d52525 !important; 
+}
+
+#title_subtittle_post>h6>a{
+  text-decoration: none;
+  color: #ffffff !important; 
+}
+
+#title_subtittle_post>h1>a:hover{
+  color: #ff3366; /* Altera a cor do texto para um tom mais claro de vermelho ao passar o mouse */
+  text-shadow: 0 0 25px rgba(255, 51, 102, 0.9), 0 0 45px rgba(255, 51, 102, 0.7); /* Aumenta o efeito de neon ao passar o mouse, deixando o texto mais brilhante */
+
+}
+
+#post_home h6 {  
+  font-size: 1.2rem; /* Tamanho do subtítulo */  
+  margin-bottom: 0.5rem; /* Espaçamento abaixo do subtítulo */  
+  color: #aaa; /* Cor do subtítulo */  
+}  
+
+#post_home h2,#post_home h6, #post_home h1,#data_post{
+  font-family: "Orbitron", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 0.5rem; /* Espaço abaixo do título */
+  white-space: normal;  /* Permite quebra de linha */  
+  overflow-wrap: break-word;  /* Quebrar palavras longas se necessário */  
+}
+
+
+
+#data_post {  
+  margin-top: 0.2rem; /* Diminui o espaço acima da data */  
+} 
+
+#posts_cart {  
+  padding: 0; /* Remove padding */  
+}  
+
+
+
 .form-label{
   color: #fbfbfb;
 }

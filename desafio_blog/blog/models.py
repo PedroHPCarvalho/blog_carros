@@ -13,8 +13,12 @@ from django.db import models
 
 class Post(models.Model):
     # Campos do modelo, informações relevantes a serem salvas no banco
+    # imagem da postagem
+    image = models.ImageField(upload_to='post_images/', blank=True, null=True)
     # titulo do post
-    title = models.CharField(max_length=200)
+    title = models.CharField(max_length=60)
+    # subtitulo do post
+    subtitle = models.CharField(max_length=150)
     # corpo do post
     body = models.TextField()
     # data de criação do post
