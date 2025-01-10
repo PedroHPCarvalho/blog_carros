@@ -2,8 +2,6 @@
 
 Este é um projeto de um pequeno sistema de blog, neste caso foi utilizado para desenvolver um blog sobre noticias do mundo automotivo 
 
-![Blog Carros](blog_carros/desafio_blog/images/Screenshot_13.png)
-
 ---
 # Técnologias utilzadas
 - Python 3.10
