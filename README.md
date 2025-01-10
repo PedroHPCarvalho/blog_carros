@@ -2,7 +2,7 @@
 
 Este é um projeto de um pequeno sistema de blog, neste caso foi utilizado para desenvolver um blog sobre noticias do mundo automotivo 
 
-![Blog Carros](images/Screenshot_13)
+![Blog Carros](images/Screenshot_13.png)
 
 ---
 # Técnologias utilzadas
