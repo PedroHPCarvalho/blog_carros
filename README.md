@@ -63,6 +63,7 @@ pip install -r requirements.txt
 4️⃣ Faça as migrações do banco de dados:
 
 ```
+cd desafio_blog
 python manage.py makemigrations
 python manage.py migrate
 ```
