@@ -143,9 +143,9 @@ Comando	Descrição
 👤 Autor
 Pedro H.P Carvalho
 
-🌐 LinkedIn (https://www.linkedin.com/in/pedro-henrique-carvalho-71b334208/)
+🌐 [![LinkedIn]](https://www.linkedin.com/in/pedro-henrique-carvalho-71b334208/)
 
-🌐 GitHub = (https://github.com/PedroHPCarvalho)
+🌐 [![GitHub]](https://github.com/PedroHPCarvalho)
 
 
 
